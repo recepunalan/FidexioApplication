@@ -6,7 +6,7 @@ Feature: Login Functionality feature
 
   Accounts are: PosManager, SalesManager, Recep
 
-  @FIX10-288 @wip
+  @FIX10-288
   Scenario Outline:
     Given User opens a browser and go to login page
     When User enters a valid SalesManager "<username>" into username box
