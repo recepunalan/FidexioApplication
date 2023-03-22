@@ -4,9 +4,9 @@ Feature: Login Functionality feature
   User Story :
   As a user, I should be able to log in so that I can land on homepage.
 
-  Accounts are: PosManager, SalesManager
+  Accounts are: PosManager, SalesManager, Recep
 
-  @FIX10-288 @wip
+  @FIX10-288 @wip @test
   Scenario Outline:
     Given User opens a browser and go to login page
     When User enters a valid SalesManager "<username>" into username box
